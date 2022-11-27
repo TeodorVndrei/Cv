@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<!-- When starting a new project, it is recommended to use "HTML:5 + enter" syntax in order to create the boilerplate of the project.
+For more cheatsheets visit emmet html cheatsheets (saved in bookmarks) -->
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Andrei's personal site</title>
+    <!-- The "meta" tags are the tags which construct the boilerplate of the
+    page. The "meta" are used by the brower in order to know how to handle the
+    information. For example the "Meta charset= UTF-8" tells the browser to
+    display the information using the universal table formatting for
+    international users. At the same time, "meta" tags are used by the browser
+    to properly match you website with the proper search done by the users. -->
+    <!--<Head> is the master data of the website. The <title> tag displays the name of the page within the browser -->
+  </head>
+
+  <body>
+    <!-- USING IMAGES - basic syntax <img src = "image.png">. When using this syntax, we can copy an image address from the web
+    and paste it within the src attribute. The "alt" attribute is the attribute that displays information whenever the browser 
+  can't display the image properly or at all. Important* when using a picture web address, the browsers will ping the server
+  where the picture is saved and if it gets permission will then fetch the pic. The problem is that, if the server where my picture
+if fetched from goes down, then my web page will not have any image to display. As a safe alternative. we can save the picture 
+insided the folder where our website is saved and use the name of the image as the source for the "img" tag. -->
+    <center>
+      <a
+        href="https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Images_in_HTML"
+        ><img
+          src="images/Profile pic.-modified.png"
+          alt="Andrei Profile Picture"
+      /></a>
+    </center>
+
+    <h1>
+      <center>Teodor Andrei</center>
+    </h1>
+    <!-- The body tag represents the Body of the page within we include all the components. It's like the skeleton of a car.
+    The "H1, H2, H3, Hn" tag represents the heading tags which get smaller the bigger the number of tag is.
+    The "center" tag is the tag which allows the text to be center alligned  -->
+
+    <p>
+      <!-- The "P" tag is the paragraph tag which allows to write your text. It can be formatted using CSS rules -->
+      <em>
+        <strong
+          ><center>
+            <font size="5"
+              ><a
+                href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/Heading_Elements"
+                >Future front end developer</a
+              ></font
+            >
+            <br />
+            <a href="contact.html">Contact</a>
+          </center></strong
+        >
+      </em>
+
+      <!-- The "em" tag is the tag that allows the text to be formatted as italic. The difference between the "em" tag and the "i"
+      tag is that that the "i" tag only visually formats the text whereas the "em" tag visually formats the text + tells the browser
+    that the text is a important piece of information -->
+      <!-- The "br" tag allows to break the text on the next line + it is self enclosing(does not need to be closed as the "H1" or 
+        "center" or the "p" tags need) -->
+    </p>
+    <hr size="10" , color="grey" />
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+      tempor incididunt ut labore et dolore magna aliqua. Ligula ullamcorper
+      malesuada proin libero nunc consequat. Scelerisque mauris pellentesque
+      pulvinar pellentesque habitant morbi tristique. <br />
+      Accumsan tortor posuere ac ut. Quisque non tellus orci ac auctor. Pretium
+      quam vulputate dignissim suspendisse in est. Scelerisque viverra mauris in
+      aliquam sem. Bibendum neque egestas congue quisque egestas diam in arcu
+      cursus. Phasellus vestibulum lorem sed risus ultricies. sollicitudin.
+    </p>
+    <hr />
+
+    <!-- The "hr" tag is the tag that generates a line within the webpage. It is useful in order to separate paragraphs.Important*
+    It cannot be used inside a "p" tag -->
+
+    <h3><center>Skills and Certificates</center></h3>
+    <ul>
+      <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/ul"
+        ><li>Sodales ut eu sem integer vitae justo eget</li></a
+      >
+      <li>Sed turpis tincidunt id</li>
+      <ul>
+        <li>Aliquam eleifend mi in nulla posuere sollicitudin</li>
+      </ul>
+      <li>Nascetur ridiculus mus mauris vitae ultricies</li>
+      <ul>
+        <li>Fermentum odio eu feugiat pretium nibh ipsum consequat</li>
+        <li>Convallis a cras semper auctor</li>
+      </ul>
+      <li>In nibh mauris cursus mattis</li>
+    </ul>
+    <hr />
+    <h3><center>Hobbies</center></h3>
+    <ol type="1" , start="1">
+      <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/ol"
+        ><li>
+          Augue eget arcu dictum varius duis at consectetur lorem donec
+        </li></a
+      >
+      <li>Sit amet nisl suscipit adipiscing bibendum est ultricies</li>
+      <li>
+        <a href="pagina secondara.html">Work experience</a>
+      </li>
+    </ol>
+    <hr />
+
+    <!-- The list tags. "Ul" tags reffers to an unordered list, which is nomerotated and has only bullet points. We can also use 
+    an "ul" inside another "ul" to make a secondary unordered list which will be nomerotated with hollow bullet points. Note that
+  in order for the list to be valid we have to tell the browser that we want him to render a list "ul" then we have to add the rows 
+  of the list which is done with the "li" tag. We cannot have an "ul" without specifing the rows with the tag "li" -->
+
+    <!-- The ordered list tag "ol" reacts the same as the "ul" tags in terms of syntax. The key difference, as the name suggests, is 
+  that our lines "li" will be ordered using numbers, 1,2,3,4...N, instead of bullets. Aslo, we can tell the "ol" what types of numerals
+to use. If we want it to use roman numerals, the correct syntax will be "<ol type = i"> or we can tell it where to start counting from 
+, for example "ol start = 6 or vi"  and the result will be <ol style = "n", start ="N"> -->
+  </body>
+</html>
