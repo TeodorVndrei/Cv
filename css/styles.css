@@ -1,0 +1,72 @@
+/* When creating a new CSS file, when naming the file, we have to named as sucj
+css/styles.css
+
+This will allow the editor and the browser to use this file only for design.*/
+
+/* 
+CSS The css is used to styilize the elements within. For more CSS Info i need to search the syntax. It is useless to
+remeber all the css syntaxes. When we want to inject css code into the file itself for example, within index.html that is called 
+internal css. When we waant to have an universal css file to apply to all our pages we crate a new css file as this one and use it
+as a source for our website.
+Also this allows for better information management */
+body {
+  background-image: linear-gradient(90deg, #96e4df 45%, #9eabe4);
+}
+
+hr {
+  border-color: #753f93;
+  border-width: 4px;
+  border-style: dotted;
+  border-top-style: none;
+  width: 15%;
+}
+
+h1 {
+  color: #753f93;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h3 {
+  color: #753f93;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+a {
+  color: #753f93;
+  size: 5px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.ProfilePic {
+  width: 15%;
+}
+p {
+  size: 50px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #573967;
+}
+li {
+  size: 2px;
+  color: #573967;
+  font-weight: bold;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+h2 {
+  color: #753f93;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+label {
+  color: #753f93;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+}
+td {
+  color: #753f93;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+}
+table {
+  color: #573967;
+  border-color: #573967;
+  background-color: aquamarine;
+}

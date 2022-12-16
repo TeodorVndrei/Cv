@@ -7,6 +7,7 @@ For more cheatsheets visit emmet html cheatsheets (saved in bookmarks) -->
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Andrei's personal site</title>
+    <link rel="stylesheet" href="css/styles.css" />
     <!-- The "meta" tags are the tags which construct the boilerplate of the
     page. The "meta" are used by the brower in order to know how to handle the
     information. For example the "Meta charset= UTF-8" tells the browser to
@@ -14,6 +15,7 @@ For more cheatsheets visit emmet html cheatsheets (saved in bookmarks) -->
     international users. At the same time, "meta" tags are used by the browser
     to properly match you website with the proper search done by the users. -->
     <!--<Head> is the master data of the website. The <title> tag displays the name of the page within the browser -->
+ 
   </head>
 
   <body>
@@ -24,22 +26,19 @@ For more cheatsheets visit emmet html cheatsheets (saved in bookmarks) -->
 if fetched from goes down, then my web page will not have any image to display. As a safe alternative. we can save the picture 
 insided the folder where our website is saved and use the name of the image as the source for the "img" tag. -->
     <center>
-      <a
-        href="https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Images_in_HTML"
-        ><img
-          src="images/Profile pic.-modified.png"
-          alt="Andrei Profile Picture"
-      /></a>
+      <img class="ProfilePic"
+        src='https://avataaars.io/?avatarStyle=Circle&topType=ShortHairShortRound&accessoriesType=Blank&hairColor=Brown&facialHairType=Blank&clotheType=Hoodie&clotheColor=PastelBlue&eyeType=Default&eyebrowType=Default&mouthType=Default&skinColor=Light'
+      />
     </center>
 
     <h1>
-      <center>Teodor Andrei</center>
+      <center> <font size="7">Teodor Andrei</font> </center>
     </h1>
     <!-- The body tag represents the Body of the page within we include all the components. It's like the skeleton of a car.
     The "H1, H2, H3, Hn" tag represents the heading tags which get smaller the bigger the number of tag is.
     The "center" tag is the tag which allows the text to be center alligned  -->
 
-    <p>
+    <p class="Titles"> 
       <!-- The "P" tag is the paragraph tag which allows to write your text. It can be formatted using CSS rules -->
       <em>
         <strong
@@ -62,7 +61,7 @@ insided the folder where our website is saved and use the name of the image as t
       <!-- The "br" tag allows to break the text on the next line + it is self enclosing(does not need to be closed as the "H1" or 
         "center" or the "p" tags need) -->
     </p>
-    <hr size="10" , color="grey" />
+    <hr />
     <p>
       Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
       tempor incididunt ut labore et dolore magna aliqua. Ligula ullamcorper
@@ -96,7 +95,7 @@ insided the folder where our website is saved and use the name of the image as t
     </ul>
     <hr />
     <h3><center>Hobbies</center></h3>
-    <ol type="1" , start="1">
+    <ul >
       <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/ol"
         ><li>
           Augue eget arcu dictum varius duis at consectetur lorem donec
@@ -106,8 +105,7 @@ insided the folder where our website is saved and use the name of the image as t
       <li>
         <a href="pagina secondara.html">Work experience</a>
       </li>
-    </ol>
-    <hr />
+    </ul>
 
     <!-- The list tags. "Ul" tags reffers to an unordered list, which is nomerotated and has only bullet points. We can also use 
     an "ul" inside another "ul" to make a secondary unordered list which will be nomerotated with hollow bullet points. Note that

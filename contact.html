@@ -7,29 +7,53 @@ code a new hyperlink, we will attach the name of the new file in the hyper link.
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Contact</title>
+    <link rel="stylesheet" href="css/styles.css" />
   </head>
   <body>
     <center><h1>Contact informations</h1></center>
-    <p>
-      <center>
-        <font size="4"><a href="index.html">Home</a></font>
-      </center>
-    </p>
-    <hr color="grey" ; size="10" />
-    <h2>Personal contact information</h2>
-    <ol>
-      <li>Phone number: 07765423</li>
-      <li>
-        LinkedIn:
-        <a href="https://www.linkedin.com/in/andrei-teodor-213984196/"
-          >www.LinkedIn.org/Teodor Andrei</a
-        >
-      </li>
-      <li>Email address: andreiteodor@email.com</li>
-      <li>GitHub: <a href="https://github.com/TeodorVndrei">www.GitHub.com</a></li>
-    </ol>
+
+    <center>
+      <table>
+        <td>
+          <font size="5"><a href="index.html">Home</a></font>
+        </td>
+      </table>
+    </center>
+
     <hr />
-    <form action="mailto:andreiteodor.c@gmail.com" method="post", enctype="text/plain">
+
+    <table>
+      <tr>
+        <td>Phone number: 07765423</td>
+      </tr>
+
+      <tr>
+        <td>
+          LinkedIn:
+          <a href="https://www.linkedin.com/in/andrei-teodor-213984196/"
+            >www.LinkedIn.org/Teodor Andrei</a
+          >
+        </td>
+      </tr>
+      <tr>
+        <td>Email address: andreiteodor@email.com</td>
+      </tr>
+      <tr>
+        <td>
+          GitHub: <a href="https://github.com/TeodorVndrei">www.GitHub.com</a>
+        </td>
+      </tr>
+
+      <br />
+    </table>
+
+    <hr align="left" />
+    <form
+      action="mailto:andreiteodor.c@gmail.com"
+      method="post"
+      ,
+      enctype="text/plain"
+    >
       <label for="Your Name">Your Name:</label> <br />
       <input type="Text" name="Your Name" id="" /> <br />
 
@@ -40,7 +64,7 @@ code a new hyperlink, we will attach the name of the new file in the hyper link.
       <input type="Your email" name="email" id=" " /> <br />
 
       <label for="Message">Your message: </label> <br />
-      <textarea name="Your message" id="" cols="30" rows="10"></textarea> <br>
+      <textarea name="Your message" id="" cols="30" rows="10"></textarea> <br />
       <input type="submit" name="" id="" />
     </form>
 
